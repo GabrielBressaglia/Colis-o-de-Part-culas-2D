@@ -2,11 +2,9 @@
 #define GLOBALVARIABLES_H
 
 // Screen
-#define WIDTH  800
-#define HEIGHT 600
+#define WIDTH  500
+#define HEIGHT 500
 
 // Particles
-#define NUM_PART 10
-#define COR GREEN
-
+#define NUM_PART 50
 #endif
