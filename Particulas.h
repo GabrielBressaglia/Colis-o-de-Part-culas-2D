@@ -50,12 +50,12 @@ static void Update_Particula(Particula* P)
     // Aqui eu levo em conta a esfera como um todo
     // Pode nao ficar legal para simulacoes graficas
     if(P->x < 0 + P->raio || P->x > WIDTH - P->raio){
-        P->x = x_old;
+        P->x = (P->x < 0 + P->raio) ? P->raio: WIDTH - P->raio;
         // deflete a esfera
         P->dx = -P->dx;
     }
     if(P->y < 0 +  P->raio|| P->y > HEIGHT -  P->raio){
-        P->y = y_old;
+        P->y = (P->y < 0 +  P->raio) ? P->raio : HEIGHT -  P->raio;
         P->dy = -P->dy;
     }
 }
