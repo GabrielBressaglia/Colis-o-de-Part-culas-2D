@@ -9,14 +9,15 @@ int main(void)
 
     // Caracteristicas Simulacao
     InitWindow(WIDTH, HEIGHT, "Sim");
-    SetTargetFPS(80);
+    SetTargetFPS(60);
 
     while (!WindowShouldClose())
     {
         // Update
         //----------------------------------------------------------------------------------
         Update_Particulas(Particulas);
-        Tratar_Colisoes(Particulas);
+        //Tratar_Colisoes(Particulas);
+        Tratar_Colisoes_Ang(Particulas);
 
         // Draw
         //----------------------------------------------------------------------------------
