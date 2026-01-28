@@ -41,6 +41,12 @@ Divisão do Projeto
      Tamanho população de partículas.
 
 \---------------------------------------------------------------------------------------------------------------------------------------------------------\
+Problemas
+Um problema notório é relacionado com a detecção da colisão. As partículas acabam se colidindo muitas vezes ao se encontarem, isso é um problema, pois acabam se "agrupando", no fim, adicionei uma condição de aproximação. Acredito que ela seja a responsável por fazer meu sistema perder energia. Ou mesmo ganhar.
+
+De qualquer forma, para um projeto inicial, está ótimo!
+
+\---------------------------------------------------------------------------------------------------------------------------------------------------------\
 Material Usado
 Teoria e equações:
 https://williamecraver.wixsite.com/elastic-equations

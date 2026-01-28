@@ -6,5 +6,5 @@
 #define HEIGHT 500
 
 // Particles
-#define NUM_PART 30
+#define NUM_PART 80
 #endif
