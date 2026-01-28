@@ -1,6 +1,6 @@
 #include "raylib.h"
 #include "Particulas.h"
-#include "GlobalVariables.h"
+#include "config.h"
 
 int main(void)
 {

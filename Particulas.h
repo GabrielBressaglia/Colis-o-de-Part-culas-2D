@@ -2,7 +2,7 @@
 #define PARTICULAS_H
 
 #include "raylib.h"
-#include "GlobalVariables.h"
+#include "config.h"
 #include "EquacoesParticulas2D.h"
 #include "EquacoesAngulosParticulas.h"
 

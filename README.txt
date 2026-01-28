@@ -44,6 +44,8 @@ Divisão do Projeto
 Problemas
 Um problema notório é relacionado com a detecção da colisão. As partículas acabam se colidindo muitas vezes ao se encontarem, isso é um problema, pois acabam se "agrupando", no fim, adicionei uma condição de aproximação. Acredito que ela seja a responsável por fazer meu sistema perder energia. Ou mesmo ganhar.
 
+Além disso, a condição de aproximação que eu coloco no tratamento da colisão, permite que as partículas se sobreponham (overlap), porque ela deixa de mudar de velocidade uma vez que não estejam de aproxiando
+
 De qualquer forma, para um projeto inicial, está ótimo!
 
 \---------------------------------------------------------------------------------------------------------------------------------------------------------\
